@@ -1,0 +1,22 @@
+/* الوضع الفاتح */
+html.light-mode {
+  background-color: white !important;
+  color: black !important;
+}
+
+/* الوضع الداكن */
+html.dark-mode {
+  background-color: #121212 !important;
+  color: white !important;
+}
+
+/* انتقال ناعم */
+html, body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h1, p, div, a {
+  color: inherit;
+}
